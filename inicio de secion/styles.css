@@ -1,0 +1,79 @@
+body{
+	background-color: #eee;
+}
+form{
+	margin: 100px auto;
+	width: 350px;
+	height: 250px;
+	background: black;
+	border-bottom: 4px solid red;
+}
+form label{
+	display: block;
+	color: white;
+	background: red;
+	padding: 14px 0;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: century;
+}
+form input[type="password"]{
+	width: 230px;
+	padding: 12px 40px;
+	font-weight: white;
+	font-family: century;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	text-transform: uppercase;
+	-moz-transition: all 0.5s;
+
+}
+form input[type="text"]{
+	width: 230px;
+	padding: 12px 40px;
+	font-weight: white;
+	font-family:century ;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	text-transform: uppercase;
+	-moz-transition: all 0.5s;
+
+}
+form input[type="text"]{
+	background: url("") 1px no-repeat;
+}
+form input[type="password"]{
+	background: url("") 1px no-repeat;
+}
+form input[type="text"]:, input[type="password"]:{
+	border: 1px solid red;
+	background: none;
+	width: 290px;
+	padding: 12px 10px;
+	
+}
+form input[type="submit"]{
+	background: red;
+	color:white;
+	display: inline-block;
+	margin-left: 18px; 
+	margin-bottom: 10px;
+	padding: 12px 25px;
+	border: none;
+	font-weight: white;
+	font-family:century;
+
+}
+form input[type="submit"]:hover{
+	background:red;
+	cursor: pointer;
+
+}
+
+.centrado{
+	text-align: center;
+}
+
